@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
 <meta charset="ISO-8859-1">
@@ -8,6 +8,7 @@
 </head>
 <body>
 	<h1>Buenas Noches !!</h1>
+	<h2>test</h2>
 	<table border="2" width="300">
 		<tr>
 			<td height="30" width="40">Fila 1, celda 1</td>
