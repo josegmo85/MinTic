@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html> 
+=======
+<!DOCTYPE html>
+>>>>>>> branch 'master' of https://github.com/josegmo85/MinTic.git
 <html>
+<<<<<<< HEAD
 <head>
 <meta charset="ISO-8859-1">
 <title>Prueba con Github</title>
@@ -34,32 +39,35 @@
 		</tr>
 	</table>
 	
+=======
+    <head>
+        <meta charset="UTF-8">
+        <link href="estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="login">
+            <div class="login-screen">
+                <div class="app-title">
+                    <h4>Login Tienda Genérica</h4>
+                </div>
+>>>>>>> branch 'master' of https://github.com/josegmo85/MinTic.git
 
-		FORMULARIO Teclee su nombre:&nbsp; <input type="text"
-			name="nombreUsuario" id="nombreUsuario" size="20" maxlength="50" />
-		<br /> Teclee su clave:&nbsp; <input type="password" name="clave"
-			id="clave" size="10" maxlength="25" /> <br /> Opine sobre mi
-		p&aacute;gina: <br />
-		<textarea name="opinion" id="opinion" cols="50" rows="5"
-			wrap="virtual">
-</textarea>
-		<br /> <input type="hidden" id="escondido" name="escondido"
-			value="oculto" /> Indique si es mayor de edad: <input
-			type="checkbox" name="adulto" id="adulto" value="si"
-			checked="checked" /> <br /> Sexo: Masculino <input type="radio"
-			id="sexoM" name="sexo" value="m" checked="checked" />
-		&nbsp;&nbsp;&nbsp;Femenino <input type="radio" id="sexoF" name="sexo"
-			value="f" /> <br />Sueldo anual: 8.000000 Pesos; <input
-			type="radio" id="sueldoBajo" name="sueldo" value="10"
-			checked="checked" /> &nbsp;&nbsp; de 8.000000 a 10.000000 Pesos; <input
-			type="radio" id="sueldoMedio" name="sueldo" value="1020" />
-		&nbsp;&nbsp; m&aacute;s de 10.000000 Pesos; <input type="radio"
-			id="sueldoAlto" name="sueldo" value="20" /> <br /> <input
-			type="submit" id="botonAceptar" name="botonAceptar" value="Aceptar" />
-		&nbsp;&nbsp; <input type="reset" id="botonBorrar" value="Borrar" />
-	</form>
+                <div class="login-form">
+                    <div class="control-group">
+                        <input type="text" class="login-field" value="" placeholder="Usuario" id="login-name">
+                        <label class="login-field-icon fui-user" for="login-name"></label>
+                    </div>
 
+                    <div class="control-group">
+                        <input type="password" class="login-field" value="" placeholder="Contraseña" id="login-pass">
+                        <label class="login-field-icon fui-lock" for="login-pass"></label>
+                    </div>
 
+                    <a class="btn btn-primary btn-large btn-block" href="#">Login</a>
+                </div>
+            </div>
+        </div>
+        <p>Digite el usuario y contraseña asignada</p>
+    </body>
 
-</body>
-</html>
+</html>		
