@@ -26,8 +26,8 @@
 		</tr>
 		<tr>
 			<td height="30">Fila 4, celda 1</td>
-			<td>Fila 4, celda 2</td>
-			<td>Fila 4, celda 3</td>
+			<td>Fila 4, celda 2.</td>
+			<td>Fila 4, celda 3.</td>
 		</tr>
 	</table>
 	
